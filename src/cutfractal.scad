@@ -1,0 +1,1 @@
+import("fractal.stl", convexity=3);

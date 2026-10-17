@@ -1,0 +1,11 @@
+torch
+numpy
+scipy
+scikit-image
+scikit-learn
+trimesh
+matplotlib
+PySide6
+# optional
+# fast-simplification   (mesh decimation)
+# manifold3d            (boolean operations in trimesh)

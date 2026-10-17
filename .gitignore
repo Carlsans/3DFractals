@@ -1,0 +1,15 @@
+# generated meshes, photos and logs (159 GB)
+src/output/
+src/fractalbysteps/
+src/saved fractals/
+src/saved mesh/
+src/stlfuse/
+*.stl
+*.png
+src/fractalarray.scad
+__pycache__/
+.idea/
+.venv/
+.stfolder/
+.stignore
+out/
