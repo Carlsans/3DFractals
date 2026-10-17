@@ -33,7 +33,7 @@ Three modes in `FractalParameters`: `issearching` (smoothed marching cubes, smal
 
 ## What worked
 
-- **Brute force over a small formula space.** 18^4 formulas at 50^3 were fast enough to look at 90,000 of them. The surviving logs span numbers from 2,279 to 96,624.
+- **Brute force over a small formula space.** At 50^3 a formula takes well under a second on a GPU, so the whole 104,976-formula space is in reach. The surviving logs (9,066 of them) span numbers from 2,279 to 96,624, so the search covered most of the range *(inferred: how many were tested in total was not recorded)*.
 - **The watertight-face ratio as a filter.** A cheap, objective test for "this will not fall apart in the slicer".
 - **Curating by deleting.** `FileManager.getFractalIndex` lists the STL files that are still in the folder and re-renders only those: the author threw away uninteresting meshes and the next stage followed.
   That is why there are 9,066 logs for 1,811 kept meshes.
